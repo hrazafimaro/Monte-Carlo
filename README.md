@@ -14,8 +14,26 @@ sur l'intervalle [0.5, 1.5] **avec la méthode Monte Carlo vectorisée** en Pyth
 
 ## Installation
 
-1. Cloner le dépôt :
+```bash
+pip install numpy matplotlib
+```
+
+## Exécution du script
 
 ```bash
-git clone https://github.com/hrazafimaro/Monte-Carlo.git
-cd Monte-Carlo
+python monte_carlo.py
+```
+
+## Exécution du notebook
+
+```bash
+jupyter notebook notebooks/demo.ipynb
+```
+
+## Exemple de sortie
+
+```text
+Monte Carlo estimate: 2.649234
+Exact integral      : 2.648721
+Relative error      : 0.019%
+```
